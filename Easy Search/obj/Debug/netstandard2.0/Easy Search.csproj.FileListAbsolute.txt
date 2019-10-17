@@ -1,0 +1,24 @@
+C:\Users\Dell\source\repos\Easy Search\Easy Search\bin\Debug\netstandard2.0\Easy Search.deps.json
+C:\Users\Dell\source\repos\Easy Search\Easy Search\bin\Debug\netstandard2.0\Easy Search.dll
+C:\Users\Dell\source\repos\Easy Search\Easy Search\bin\Debug\netstandard2.0\Easy Search.pdb
+C:\Users\Dell\source\repos\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\Easy Search\Easy Search\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dell\source\repos\Easy Search\Easy Search\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Dell\source\repos\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.AssemblyInfo.cs
+C:\Users\Dell\source\repos\Easy Search\Easy Search\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dell\source\repos\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.dll
+C:\Users\Dell\source\repos\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.pdb
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\bin\Debug\netstandard2.0\Easy Search.deps.json
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\bin\Debug\netstandard2.0\Easy Search.dll
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\bin\Debug\netstandard2.0\Easy Search.pdb
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.csprojAssemblyReference.cache
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.csproj.CoreCompileInputs.cache
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.AssemblyInfoInputs.cache
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.AssemblyInfo.cs
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.dll
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\obj\Debug\netstandard2.0\Easy Search.pdb
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search\obj\Debug\netstandard2.0\XamlC.stamp
