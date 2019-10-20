@@ -31,7 +31,6 @@ foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search.Android\obj\Debug\90\lp\41\jl\res\layout\bottomtablayout.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search.Android\obj\Debug\90\lp\41\jl\res\layout\bottomtablayout.xml
-LinearLayout;obj\Debug\90\res\layout\customentryshape.xml
 paths;C:\Users\justa\OneDrive\Stalinis kompiuteris\Easy Search\Easy Search.Android\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml

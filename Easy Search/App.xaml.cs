@@ -6,11 +6,18 @@ namespace Easy_Search
 {
     public partial class App : Application
     {
+        public static bool IsUserLoggedIn { get; set; }
+
         public App()
         {
-            InitializeComponent();
-
-            MainPage = new NavigationPage(new MainPage());
+            if (!IsUserLoggedIn)
+            {
+                MainPage = new NavigationPage(new LoginPage());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new Easy_Search.MainPage());
+            }
         }
 
         protected override void OnStart()

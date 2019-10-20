@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Easy_Search"
+             mc:Ignorable="d"
+             x:Class="Easy_Search.SignUpPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="Username" />
+            <local:CustomEntry x:Name="usernameEntry" Placeholder="Username" />
+            <Label Text="Password" />
+            <local:CustomEntry x:Name="passwordEntry" IsPassword="true" Placeholder="Password" />
+            <Label Text="Email address" />
+            <local:CustomEntry x:Name="emailEntry" Placeholder="Email"/>
+            <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" 
+                     VerticalOptions="Center"
+               HorizontalOptions="Center"
+                HeightRequest="45"
+                  Margin="20"
+                WidthRequest="200"
+                BorderWidth="2"
+                BorderColor="#004C00" 
+                CornerRadius="20"
+                BackgroundColor="LightSkyBlue"/>
+            <Label x:Name="messageLabel" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

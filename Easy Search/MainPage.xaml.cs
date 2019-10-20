@@ -17,13 +17,18 @@ namespace Easy_Search
         {
             InitializeComponent();
         }
-
+        async void OnLogoutButtonClicked(object sender, EventArgs e)
+        {
+            App.IsUserLoggedIn = false;
+            Navigation.InsertPageBefore(new LoginPage(), this);
+            await Navigation.PopAsync();
+        }
         private void OnButtonClicked(object sender, EventArgs e)
         {
             string query = entry.Text.Replace(' ', '+');
             string html = GetHtmlCode(query);
             List<string> urls = GetPictureUrls(html);
-            label1.Text = getDescription(entry.Text).Split(new[] { "\n" },StringSplitOptions.None)[0];
+            label1.Text = getDescription(entry.Text).Split(new[] { "\n" }, StringSplitOptions.None)[0];
             label2.Text = getDescription(entry.Text).Split(new[] { "\n" }, StringSplitOptions.None)[1];
             System.Diagnostics.Debug.WriteLine(urls[0]);
             Device.BeginInvokeOnMainThread(() =>
@@ -46,7 +51,9 @@ namespace Easy_Search
             request.Accept = "text/html, application/xhtml+xml, */*";
             request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko";
 
+
             var response = (HttpWebResponse)request.GetResponse();
+
 
             using (Stream dataStream = response.GetResponseStream())
             {
