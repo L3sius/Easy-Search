@@ -4867,7 +4867,6 @@ public final class R {
     public static final int searchpeople=0x7f07013a;
     public static final int tooltip_frame_dark=0x7f07013b;
     public static final int tooltip_frame_light=0x7f07013c;
-    public static final int undraw_people_search_wctu=0x7f07013d;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Easy_Search"
+             mc:Ignorable="d"
+             x:Class="Easy_Search.LoginPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="Username" />
+            <local:CustomEntry x:Name="usernameEntry" Placeholder="Username" />
+            <Label Text="Password" />
+            <local:CustomEntry x:Name="passwordEntry" IsPassword="true" Placeholder="Password"/>
+            <Button Text="Login" Clicked="OnLoginButtonClicked" 
+                    VerticalOptions="Center"
+               HorizontalOptions="Center"
+                HeightRequest="45"
+                WidthRequest="200"
+                 Margin="20"
+                BorderWidth="2"
+                BorderColor="#004C00" 
+                CornerRadius="20"
+                BackgroundColor="LightSkyBlue"/>
+            <Label x:Name="messageLabel" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

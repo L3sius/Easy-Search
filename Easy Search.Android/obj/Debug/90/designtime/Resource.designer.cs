@@ -6448,9 +6448,6 @@ namespace Easy_Search.Droid
 			// aapt resource value: 0x7F070136
 			public const int tooltip_frame_light = 2131165494;
 			
-			// aapt resource value: 0x7F070137
-			public const int undraw_people_search_wctu = 2131165495;
-			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
